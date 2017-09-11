@@ -3439,3 +3439,7 @@
 	.fa-file-pdf-o {
 		font-size: 6em;
 	}
+
+	.contact-link {
+		border-bottom: none;
+	}
