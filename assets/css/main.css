@@ -3431,3 +3431,11 @@
 		flex-wrap: wrap;
 		font-size: 4em;
 	}
+
+	header.major {
+		text-align: left;
+	}
+
+	.fa-file-pdf-o {
+		font-size: 6em;
+	}
