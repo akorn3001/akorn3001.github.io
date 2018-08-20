@@ -1,0 +1,19 @@
+@import url('Sidebar.css');
+
+body {
+  background-image: url("../full-bloom.png");
+  background-repeat: repeat;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
