@@ -24,7 +24,7 @@ const Sidebar = () => {
             </li>
 
             <li>
-              <a href="#education">Education</a>
+              <a href="#About Me">About Me</a>
             </li>
 
             <li>

@@ -1,6 +1,8 @@
 @import url('Sidebar.css');
 @import url('Headshot.css');
 @import url('Skills.css');
+@import url('Projects.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 body {
   background-image: url("../full-bloom.png");

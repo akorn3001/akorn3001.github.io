@@ -12,7 +12,7 @@
 .devicon {
   width: 100px;
   height: auto;
-  margin-right: 7px;
+  margin: 4px;
 }
 
 .skills-wrapper {
@@ -25,4 +25,5 @@
   margin-left: 20px;
   text-decoration: underline;
   text-transform: uppercase;
+  font-family: Source Sans Pro;
 }
