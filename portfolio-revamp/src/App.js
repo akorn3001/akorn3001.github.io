@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
 import Sidebar from './components/sidebar';
+import Skills from './components/skills';
 import './styles/App.css';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Sidebar />
         <main className="main-content">
-          STUFF COMING LATER...
+          <Skills />
         </main>
       </div>
     );

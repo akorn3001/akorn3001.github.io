@@ -8,7 +8,7 @@ const Sidebar = () => {
         <nav>
           <ul>
             <li>
-              <img className="headshot" src={Headshot} />
+              <img className="headshot" alt="" src={Headshot} />
             </li>
 
             <li>
@@ -20,7 +20,7 @@ const Sidebar = () => {
             </li>
 
             <li>
-              <a href="#resume">Resume</a>
+              <a href="/portfolio-revamp/public/resume.pdf">Resume</a>
             </li>
 
             <li>

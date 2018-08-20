@@ -1,0 +1,28 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 15px;
+  background: white;
+}
+
+.devicon {
+  width: 100px;
+  height: auto;
+  margin-right: 7px;
+}
+
+.skills-wrapper {
+  max-width: 1000px;
+  background: white;
+  margin: auto;
+}
+
+.skills-wrapper h1 {
+  margin-left: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}

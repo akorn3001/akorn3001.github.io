@@ -1,5 +1,6 @@
 @import url('Sidebar.css');
 @import url('Headshot.css');
+@import url('Skills.css');
 
 body {
   background-image: url("../full-bloom.png");
@@ -17,4 +18,8 @@ li {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+}
+
+.main-content {
+  margin-left: 23em;
 }
