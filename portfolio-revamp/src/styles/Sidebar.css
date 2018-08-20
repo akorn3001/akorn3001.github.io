@@ -4,7 +4,7 @@
   cursor: default;
   left: 0;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
   position: fixed;
   text-align: right;
   top: 0;
@@ -16,6 +16,7 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  height: 100vh;
 }
 
 #sidebar nav a {
@@ -42,4 +43,15 @@
 #sidebar nav a:active {
   color: white;
   border-bottom: 3px solid linear-gradient(red, yellow);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(0);
+  transition: opacity 1s ease;
+  min-height: 100%;
+  opacity: 1;
+  width: 100%;
 }
