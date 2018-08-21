@@ -1,0 +1,18 @@
+.welcome-wrapper {
+  max-width: calc(100vw - 18em);
+  /* background: white; */
+  margin: auto;
+  padding-bottom: 20px;
+  /* -webkit-box-shadow: 0px 0px 2px 2px #ccc; */
+  margin-bottom: 20px;
+}
+
+.welcome-wrapper h1 {
+  font-size: 100px;
+  margin: 0 0 0 20px;
+}
+
+.welcome-wrapper h3 {
+  font-size: 30px;
+  margin: 5px 0 5px 20px;
+}

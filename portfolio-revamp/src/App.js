@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Route, Redirect, Switch } from 'react-router-dom';
 import Sidebar from './components/sidebar.jsx';
+import Welcome from './components/welcome.jsx';
 import Skills from './components/skills.jsx';
 import Projects from './components/projects.jsx';
 import AboutMe from './components/about.jsx';
@@ -13,6 +13,7 @@ class App extends Component {
       <div className="App">
         <Sidebar />
         <main className="main-content">
+          <Welcome />
           <Skills />
           <Projects />
           <AboutMe />

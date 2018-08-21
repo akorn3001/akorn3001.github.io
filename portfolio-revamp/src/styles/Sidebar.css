@@ -55,3 +55,13 @@
   opacity: 1;
   width: 100%;
 }
+
+.nav-link {
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

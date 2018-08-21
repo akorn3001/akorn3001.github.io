@@ -3,12 +3,12 @@
   background: white;
   margin: auto;
   padding-bottom: 20px;
-  -webkit-box-shadow: 0px 0px 2px 2px #ccc;
+  /* -webkit-box-shadow: 0px 0px 2px 2px #ccc; */
   margin-bottom: 20px;
 }
 
 .contact-wrapper h1 {
-  margin-left: 20px;
+  margin: 0 0 0 20px;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: Source Sans Pro;
@@ -29,7 +29,7 @@
 }
 
 .contact-info-phone img, .contact-info-email img {
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .gh-icon, .li-icon {

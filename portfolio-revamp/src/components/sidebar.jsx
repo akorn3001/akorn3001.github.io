@@ -11,23 +11,23 @@ const Sidebar = () => {
               <img className="headshot" alt="" src={Headshot} />
             </li>
 
-            <li>
+            <li className="nav-link">
               <a href="#skills">Skills</a>
             </li>
 
-            <li>
+            <li className="nav-link">
               <a href="#projects">Projects</a>
             </li>
 
-            <li>
+            <li className="nav-link">
               <a href="/portfolio-revamp/public/resume.pdf">Resume</a>
             </li>
 
-            <li>
+            <li className="nav-link">
               <a href="#about-me">About Me</a>
             </li>
 
-            <li>
+            <li className="nav-link">
               <a href="#contact">Contact</a>
             </li>
           </ul>
