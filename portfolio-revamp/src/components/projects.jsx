@@ -8,7 +8,7 @@ import Project from './project.jsx';
 const Projects = () => {
   return (
     <div className="projects-wrapper">
-      <h1><a name="projects">Projects</a></h1>
+      <h1 id="projects">Projects</h1>
 
       <Project
         id="one"

@@ -20,7 +20,7 @@ import Ruby_icon from '../devicons/ruby-icon.svg';
 const Skills = () => {
   return (
     <div className="skills-wrapper">
-      <a name="skills"><h1>Skills</h1></a>
+      <h1 id="skills">Skills</h1>
       <div className="skills">
         <img className="devicon" alt="skill-icon" src={AWS_icon} />
         <img className="devicon" alt="skill-icon" src={Atom_icon} />

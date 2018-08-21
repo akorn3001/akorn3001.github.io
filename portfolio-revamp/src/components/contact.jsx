@@ -7,7 +7,7 @@ import LinkedinIcon from '../contact-icons/linkedin_icon.png';
 const Contact = () => {
   return (
     <div className="contact-wrapper">
-      <h1><a name="contact">Contact</a></h1>
+      <h1 id="contact">Contact</h1>
 
       <section className="contact">
         <a href="https://www.github.com/akorn3001">

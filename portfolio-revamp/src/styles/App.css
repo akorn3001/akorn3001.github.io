@@ -1,5 +1,6 @@
 @import url('Sidebar.css');
 @import url('Header.css');
+@import url('NavBar.css');
 @import url('Headshot.css');
 @import url('Welcome.css');
 @import url('Skills.css');
@@ -32,9 +33,32 @@ li {
   margin-left: 23em;
 }
 
+h1::before {
+  display: block;
+  content: " ";
+  margin-top: -60px;
+  height: 90px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 @media screen and (max-width: 1044px) {
   .main-content {
     margin-left: 0;
-    margin-top: 0;
+    margin-top: 60px;
+  }
+
+  .navigation {
+    position: fixed;
+  }
+
+  .headshot {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1045px) {
+  .menulist {
+    display: none;
   }
 }

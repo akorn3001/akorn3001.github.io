@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
   return (
     <div className="about-wrapper">
-      <a name="about-me"><h1>About Me</h1></a>
+      <h1 id="about-me">About Me</h1>
       <section className="about-section">
         I'm a software developer based in NYC with a passion for tackling
         challenging problems. I have experience using Ruby on Rails, React and
