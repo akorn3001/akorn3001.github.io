@@ -59,8 +59,7 @@ const Projects = () => {
                 <h2><a href="http://alex-kornfeld.com/4096/">4096</a></h2>
                 <section>
                   4096 is a clone of the sliding-block puzzle game, 2048. It was
-                  built using JavaScript with a CSS Animation library for the
-                  sliding animations.
+                  built using vanilla JavaScript and jQuery.
                 </section>
                 <div className="project-buttons">
                   <a className="button live-button" href="http://alex-kornfeld.com/4096/">Live</a>

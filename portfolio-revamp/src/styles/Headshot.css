@@ -3,6 +3,7 @@
   margin: auto;
   height: auto;
   border-radius: 50%;
+  cursor: pointer;
 
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 3s; /* Firefox < 16 */

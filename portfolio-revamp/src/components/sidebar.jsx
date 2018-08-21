@@ -2,13 +2,18 @@ import React from 'react';
 import Headshot from '../alex_pic.png';
 
 const Sidebar = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div id="sidebar">
       <div className="inner">
         <nav>
           <ul>
             <li>
-              <img className="headshot" alt="" src={Headshot} />
+              <img className="headshot nav-link" onClick={scrollToTop.bind(this)} alt="" src={Headshot} />
             </li>
 
             <li className="nav-link">
