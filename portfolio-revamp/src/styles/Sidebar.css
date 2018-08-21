@@ -65,3 +65,9 @@
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 1044px) {
+  #sidebar {
+    visibility: hidden;
+  }
+}
