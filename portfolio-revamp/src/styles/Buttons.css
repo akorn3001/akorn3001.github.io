@@ -21,6 +21,7 @@
   width: 180px;
   align-items: center;
   margin: auto;
+  margin-bottom: 15px;
 }
 
 #four .live-button, #four .repo-button {

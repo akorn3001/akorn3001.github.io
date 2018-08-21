@@ -18,7 +18,7 @@ header span:hover {
 
 @media screen and (min-width: 1045px) {
   header {
-    visibility: hidden;
+    display: none;
   }
 }
 

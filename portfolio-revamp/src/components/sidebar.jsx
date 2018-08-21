@@ -1,5 +1,6 @@
 import React from 'react';
 import Headshot from '../alex_pic.png';
+import Resume from '../resume.pdf';
 
 const Sidebar = () => {
 
@@ -25,7 +26,7 @@ const Sidebar = () => {
             </li>
 
             <li className="nav-link">
-              <a href="/portfolio-revamp/public/resume.pdf">Resume</a>
+              <a href={Resume} target="_blank">Resume</a>
             </li>
 
             <li className="nav-link">

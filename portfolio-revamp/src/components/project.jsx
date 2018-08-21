@@ -6,25 +6,45 @@ class Project extends React.Component {
   }
 
   render() {
+    let liveButtonText = this.props.liveButtonText || "Live";
     let projectComponent;
+
     if (this.props.leftImage) {
-      component =
-      <div className="project-wrapper">
-        <div className="project-image">
-          <img src={this.props.image} />
-        </div>
-        <div className="project-info">
-          <section>{this.props.project_summary}</section>
+      projectComponent =
+      <div className={`project-wrapper ${this.props.addedClassName}`}>
+        <h2>{this.props.projectTitle}</h2>
+        <div className="project">
+          <div className="project-image-wrapper">
+            <img className="project-image" src={this.props.imageSrc} />
+          </div>
+          <div className="project-info-wrapper">
+            <section className="project-info">
+              {this.props.projectSummary}
+            </section>
+            <div className="project-buttons">
+              <a className="button live-button" href={this.props.liveHREF}>{liveButtonText}</a>
+              <a className="button repo-button" href={this.props.repoHREF}>Repo</a>
+            </div>
+          </div>
         </div>
       </div>;
     } else {
       projectComponent =
-      <div className="project-wrapper">
-        <div className="project-info">
-          <section>{this.props.project_summary}</section>
-        </div>
-        <div className="project-image">
-          <img src={this.props.image} />
+      <div className={`project-wrapper ${this.props.addedClassName}`}>
+        <h2>{this.props.projectTitle}</h2>
+        <div className="project">
+          <div className="project-info-wrapper">
+            <section className="project-info">
+              {this.props.projectSummary}
+            </section>
+            <div className="project-buttons">
+              <a className="button live-button" href={this.props.liveHREF}>{liveButtonText}</a>
+              <a className="button repo-button" href={this.props.repoHREF}>Repo</a>
+            </div>
+          </div>
+          <div className="project-image-wrapper">
+            <img className="project-image" src={this.props.imageSrc} />
+          </div>
         </div>
       </div>;
     }

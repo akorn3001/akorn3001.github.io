@@ -68,6 +68,6 @@
 
 @media screen and (max-width: 1044px) {
   #sidebar {
-    visibility: hidden;
+    display: none;
   }
 }

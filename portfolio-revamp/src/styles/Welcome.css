@@ -20,6 +20,6 @@
 
 @media screen and (max-width: 1044px) {
   .welcome-wrapper {
-    visibility: hidden;
+    display: none;
   }
 }
