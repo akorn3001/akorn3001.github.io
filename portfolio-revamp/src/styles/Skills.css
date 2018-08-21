@@ -1,5 +1,4 @@
 .skills-wrapper {
-  max-width: calc(100vw - 18em);
   background: white;
   margin: auto;
   /* margin-top: 100px; */
@@ -17,15 +16,33 @@
   background: white;
 }
 
-.devicon {
-  width: 100px;
-  height: auto;
-  margin: 4px;
-}
-
 .skills-wrapper h1 {
-  margin-left: 20px;
+  margin: 0 0 10px 20px;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: Source Sans Pro;
+}
+
+@media screen and (max-width: 1044px) {
+  .skills-wrapper {
+    max-width: 100vw;
+  }
+
+  .devicon {
+    width: 75px;
+    height: auto;
+    margin: 3px;
+  }
+}
+
+@media screen and (min-width: 1045px) {
+  .skills-wrapper {
+    max-width: calc(100vw - 18em);
+  }
+
+  .devicon {
+    width: 100px;
+    height: auto;
+    margin: 4px;
+  }
 }

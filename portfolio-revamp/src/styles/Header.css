@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: #4800B7;
+  color: white;
+  padding: 7px;
+  height: 60px;
+  align-items: center;
+  font-weight: 300;
+  justify-content: center;
+  font-family: "Questrial", sans-serif;
+}
+
+header span:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1045px) {
+  header {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 1044px) {
+  header {
+    font-size: 23px;
+    letter-spacing: 3px;
+    min-width: 100vw;
+  }
+}

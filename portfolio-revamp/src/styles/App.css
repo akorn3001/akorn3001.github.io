@@ -35,5 +35,6 @@ li {
 @media screen and (max-width: 1044px) {
   .main-content {
     margin-left: 0;
+    margin-top: 0;
   }
 }

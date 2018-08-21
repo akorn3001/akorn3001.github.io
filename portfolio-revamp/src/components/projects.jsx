@@ -12,7 +12,10 @@ const Projects = () => {
 
         <div className="project-wrapper">
           <div id="one" className="project">
-            <img className="project-image" src={LouisGif} />
+            <div className="project-image-wrapper">
+              <img className="project-image" src={LouisGif} />
+            </div>
+
             <div className="project-info">
               <div className="project-info-content">
                 <h2><a href="https://www.louiskornfeld.com">www.LouisKornfeld.com</a></h2>
@@ -47,13 +50,17 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img className="project-image" src={CWSImage} />
+            <div className="project-image-wrapper">
+              <img className="project-image" src={CWSImage} />
+            </div>
           </div>
         </div>
 
         <div className="project-wrapper">
           <div id="three" className="project">
-            <img className="project-image" src={FortyNinetySixImage} />
+            <div className="project-image-wrapper">
+              <img className="project-image" src={FortyNinetySixImage} />
+            </div>
             <div className="project-info">
               <div className="project-info-content">
                 <h2><a href="http://alex-kornfeld.com/4096/">4096</a></h2>
@@ -85,7 +92,9 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img className="project-image" src={DOMinosImage} />
+            <div className="project-image-wrapper">
+              <img className="project-image" src={DOMinosImage} />
+            </div>
           </div>
         </div>
 
