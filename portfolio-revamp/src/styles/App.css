@@ -2,11 +2,15 @@
 @import url('Headshot.css');
 @import url('Skills.css');
 @import url('Projects.css');
+@import url('Buttons.css');
+@import url('About.css');
+@import url('Contact.css');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 body {
   background-image: url("../full-bloom.png");
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 ul {

@@ -1,0 +1,28 @@
+.button {
+  text-decoration: none;
+  padding: 8px;
+  font-size: 20px;
+  border: 2px solid #FF5008;
+  border-radius: 8px;
+  background-color: #FF5008;
+  transition: 0.25s ease;
+  color: white;
+}
+
+.button:hover {
+  color: #FF5008;
+  background-color: white;
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 180px;
+  align-items: center;
+  margin: auto;
+}
+
+#four .live-button, #four .repo-button {
+  font-size: 15px;
+}

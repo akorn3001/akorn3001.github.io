@@ -1,3 +1,10 @@
+.skills-wrapper {
+  max-width: calc(100vw - 18em);
+  background: white;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 2px 2px #ccc;
+}
+
 .skills {
   display: flex;
   flex-direction: row;
@@ -13,12 +20,6 @@
   width: 100px;
   height: auto;
   margin: 4px;
-}
-
-.skills-wrapper {
-  max-width: 1000px;
-  background: white;
-  margin: auto;
 }
 
 .skills-wrapper h1 {

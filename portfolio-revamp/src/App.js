@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
-import Sidebar from './components/sidebar';
-import Skills from './components/skills';
-import Projects from './components/projects';
+import Sidebar from './components/sidebar.jsx';
+import Skills from './components/skills.jsx';
+import Projects from './components/projects.jsx';
+import AboutMe from './components/about.jsx';
+import Contact from './components/contact.jsx';
 import './styles/App.css';
 
 class App extends Component {
@@ -13,6 +15,8 @@ class App extends Component {
         <main className="main-content">
           <Skills />
           <Projects />
+          <AboutMe />
+          <Contact />
         </main>
       </div>
     );
