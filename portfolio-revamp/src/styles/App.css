@@ -33,15 +33,6 @@ li {
   margin-left: 23em;
 }
 
-h1::before {
-  display: block;
-  content: " ";
-  margin-top: -60px;
-  height: 90px;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 @media screen and (max-width: 1044px) {
   .main-content {
     margin-left: 0;
@@ -54,6 +45,15 @@ h1::before {
 
   .headshot {
     display: none;
+  }
+
+  h1::before {
+    display: block;
+    content: " ";
+    margin-top: -90px;
+    height: 90px;
+    visibility: hidden;
+    pointer-events: none;
   }
 }
 
