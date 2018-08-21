@@ -15,7 +15,7 @@ const AboutMe = () => {
         in Mechanical Engineering, both from Stony Brook University.
         <br />
         <br />
-        I have five years of experience studying and performing improv comedy.
+        I have five years' experience studying and performing improv comedy.
         Check me out at the <a href="https://www.magnettheater.com">Magnet Theater!</a>
       </section>
     </div>

@@ -16,6 +16,11 @@ body {
   background-attachment: fixed;
 }
 
+footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
 ul {
   list-style-type: none;
   padding: 0;

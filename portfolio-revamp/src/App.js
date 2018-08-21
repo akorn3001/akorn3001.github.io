@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Sidebar from './components/sidebar.jsx';
 import Header from './components/header.jsx';
+import Footer from './components/footer.jsx';
 import Welcome from './components/welcome.jsx';
 import Skills from './components/skills.jsx';
 import Projects from './components/projects.jsx';
@@ -20,6 +21,7 @@ class App extends Component {
           <Projects />
           <AboutMe />
           <Contact />
+          <Footer />
         </main>
       </div>
     );
