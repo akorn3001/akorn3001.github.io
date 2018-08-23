@@ -10,7 +10,7 @@
 @import url('Contact.css');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-body {
+body, .navigation {
   background-image: url("../full-bloom.png");
   background-repeat: repeat;
   background-attachment: fixed;
