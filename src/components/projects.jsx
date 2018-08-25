@@ -43,7 +43,7 @@ const Projects = () => {
         imageSrc={FortyNinetySixImage}
         projectSummary="4096 is a clone of the sliding-block puzzle game,
           2048. It was built using vanilla JavaScript and jQuery."
-        liveHREF={"http://alex-kornfeld.com/4096/"}
+        liveHREF={"https://akorn3001.github.io/4096/"}
         repoHREF={"https://www.github.com/akorn3001/4096"}
       />
 
@@ -55,7 +55,7 @@ const Projects = () => {
         imageSrc={DOMinosImage}
         projectSummary="DOMinos is a JavaScript library inspired by
           jQuery. It provides DOM manipulation functionality."
-        liveHREF={"http://alex-kornfeld.com/DOMinos/"}
+        liveHREF={"https://akorn3001.github.io/DOMinos/"}
         repoHREF={"https://www.github.com/akorn3001/DOMinos"}
       />
     </div>
